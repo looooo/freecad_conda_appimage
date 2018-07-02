@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=FreeCAD
-Exec=FreeCAD
+Exec=AppRun
 Icon=freecad_conda
 Type=Application
 Categories=Engineering;

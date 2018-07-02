@@ -1,1 +1,2 @@
-/freecad/bin/activate && /freecad/bin/FreeCAD
+#!/bin/bash
+source /freecad/bin/activate && FreeCAD
