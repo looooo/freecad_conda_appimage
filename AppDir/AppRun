@@ -1,4 +1,3 @@
-/freecad/bin/activate && /freecad/bin/FreeCAD
 #!/bin/bash
 HERE="$(dirname "$(readlink -f "${0}")")"
 source ${HERE}/freecad/bin/activate && FreeCAD
