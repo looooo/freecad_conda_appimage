@@ -35,7 +35,7 @@ https://conda.anaconda.org/conda-forge/linux-64/hdf5-1.10.1-2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libpng-1.6.34-0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libssh2-1.8.0-h5b517e9_2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.0.9-he6b73bb_1.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.9.8-0.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.9.8-h422b904_2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/sqlite-3.20.1-2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/xerces-c-3.2.0-0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/coin3d-4.0.0-hf1beacf_3.tar.bz2

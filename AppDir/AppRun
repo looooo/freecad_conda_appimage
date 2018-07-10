@@ -1,3 +1,5 @@
 #!/bin/bash
 HERE="$(dirname "$(readlink -f "${0}")")"
-source ${HERE}/freecad/bin/activate && FreeCAD
+echo ${HERE}
+export LD_LIBRARY_PATH="$HERE/usr/lib"
+${HERE}/usr/bin/FreeCAD
