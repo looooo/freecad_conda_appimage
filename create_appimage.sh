@@ -1,5 +1,5 @@
 #1 create a new environment in the AppDir with packages specified with a text-file
-conda create -p AppDir/usr --file freecad-spec-file.txt
+conda create -p AppDir/usr --file freecad-spec-file.txt --copy
 
 #2 delete unnecessary stuff
 rm -rf AppDir/usr/include

@@ -50,7 +50,6 @@ https://conda.anaconda.org/conda-forge/linux-64/future-0.16.0-py36_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libnetcdf-4.5.0-3.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.14.2-py36_nomklh2b20989_1.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/occt-7.2.0-3.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.15.40-py36h470a237_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/six-1.11.0-py36_1.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/netgen-6.2.1804-py36_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/qt-5.6.2-7.tar.bz2
@@ -60,7 +59,8 @@ https://conda.anaconda.org/conda-forge/linux-64/smesh-8.3.0b0-py36_7.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/pivy-0.6.4-py36hb59a952_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/freecad-0.18b0-py36h275e31e_2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/urllib3-1.23-py36_0.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/conda-4.5.4-py36_0.tar.bz2
+# https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.15.40-py36h470a237_0.tar.bz2
+# https://conda.anaconda.org/conda-forge/linux-64/conda-4.5.4-py36_0.tar.bz2
 # https://repo.anaconda.com/pkgs/free/linux-64/system-5.8-2.tar.bz2
 # https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.7-0.tar.bz2
 # https://conda.anaconda.org/conda-forge/linux-64/json-c-0.13.1-h470a237_0.tar.bz2
