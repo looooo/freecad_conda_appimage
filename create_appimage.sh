@@ -3,7 +3,7 @@ conda create -p AppDir/usr --file freecad-spec-file.txt --copy
 
 #2 delete unnecessary stuff
 rm -rf AppDir/usr/include
-rm AppDir/usr/lib/*.a
+find AppDir/usr -name \*.a -delete
 mv AppDir/usr/bin AppDir/usr/bin_tmp
 mkdir AppDir/usr/bin
 cp AppDir/usr/bin_tmp/FreeCAD AppDir/usr/bin/FreeCAD

@@ -2,6 +2,7 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 @EXPLICIT
+https://conda.anaconda.org/conda-forge/linux-64/tbb-2018_20171205-0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/blas-1.0-openblas.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.6-1.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/freeimage-3.17.0-0.tar.bz2
