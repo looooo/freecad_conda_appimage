@@ -8,6 +8,11 @@ conda create \
     -c conda-forge \
     -y
 
+# activating the environment to install additional tools
+# this can be skipped if we create conda-packages from the pip-packages...
+source activate AppDir/usr
+pip install https://github.com/looooo/freecad_pipintegration/archive/master.zip
+source activate base
 
 ## this will create a huge env. We have to find some ways to make the env smaller
 ## deleting some packages explicitly?
@@ -18,8 +23,9 @@ conda remove -p AppDir/usr --force -y \
     gst-plugins-base idna kiwisolver pycosat pycparser pysocks \
     pytz sip solvespace tornado xorg-libxi xorg* cffi \
     cycler python-dateutil setuptools cryptography pyqt soqt wheel \
-    matplotlib pip pyopenssl requests pyparsing libstdcxx-ng \
+    pyopenssl requests pyparsing libstdcxx-ng \
     xz sqlite pyparsing ncurses
+
 
 conda list -p AppDir/usr
 
