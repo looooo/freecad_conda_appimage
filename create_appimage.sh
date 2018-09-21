@@ -18,13 +18,12 @@ source activate base
 ## deleting some packages explicitly?
 conda remove -p AppDir/usr --force -y \
     ruamel_yaml conda system tk json-c llvmdev \
-    nomkl openssl readline xorg-fixesproto xorg-libsm mesalib \
+    nomkl readline xorg-fixesproto xorg-libsm mesalib \
     xorg-libx11 curl gstreamer libtheora asn1crypto certifi chardet \
     gst-plugins-base idna kiwisolver pycosat pycparser pysocks \
     pytz sip solvespace tornado xorg-libxi xorg* cffi \
     cycler python-dateutil setuptools cryptography pyqt soqt wheel \
-    pyopenssl requests pyparsing libstdcxx-ng \
-    xz sqlite pyparsing ncurses
+    requests libstdcxx-ng xz sqlite ncurses
 
 
 conda list -p AppDir/usr
@@ -34,8 +33,10 @@ rm -rf AppDir/usr/include
 find AppDir/usr -name \*.a -delete
 mv AppDir/usr/bin AppDir/usr/bin_tmp
 mkdir AppDir/usr/bin
-cp AppDir/usr/bin_tmp/FreeCAD AppDir/usr/bin/FreeCAD
+cp AppDir/usr/bin_tmp/FreeCAD AppDir/usr/bin/
 cp AppDir/usr/bin_tmp/python AppDir/usr/bin/
+cp AppDir/usr/bin_tmp/pip AppDir/usr/bin/
+sed -i '1s|.*|#!/usr/bin/env python|' AppDir/usr/bin/pip
 rm -rf AppDir/usr/bin_tmp
 #+ deleting some specific libraries not needed. eg.: stdc++
 
